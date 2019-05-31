@@ -1,0 +1,16 @@
+---
+  - name: Mail Sending 
+    hosts: localhost
+    tasks: 
+      - name: Mail Sending
+        mail: 
+           host: smtp.gmail.com
+           port: 587
+           username: "diptochuck123@gmail.com"
+           password: ""
+           to:  "DiptoChakrabarty <chottoboro@gmail.com>"
+           subject: "ansible"
+           body: "LVM of 50 Gb"
+           secure: starttls
+        delegate_to: localhost 
+        
