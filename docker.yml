@@ -1,4 +1,4 @@
-- name: Pull centos image
+p name: Pull centos image
   hosts: dockerhost
   tasks: 
   - name: pull

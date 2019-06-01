@@ -1,0 +1,9 @@
+- hosts: localhost
+  tasks:
+    - package: 
+        name: nginx
+        state: present
+    - service:
+        name: nginx
+        state: started 
+        enabled: yes

@@ -1,0 +1,5 @@
+- hosts: localhost
+  tasks: 
+    - service:
+        name: jupyter-notebook
+        state: started
