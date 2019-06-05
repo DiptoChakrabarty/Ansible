@@ -5,9 +5,9 @@
   mail:
     host: "smtp.gmail.com"
     port: 587
-    username: chottoboro@gmail.com
+    username: @gmail.com
     password: 
-    to: Simran Didi<simransingh93516@gmail.com>
+    to: <@gmail.com>
     subject: Ansible Attempt
     attach: "/root/Desktop/Github/CV/human.jpg"
   delegate_to: localhost
