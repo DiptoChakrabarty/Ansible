@@ -1,0 +1,4 @@
+- git:
+    repo: https://github.com/DiptoChakrabarty/csspage.git
+    dest: /root/Desktop/Linux\ World
+    clone: yes

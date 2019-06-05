@@ -1,5 +1,5 @@
 - name: Launch httpd
-  hosts: localhost
+  hosts: all
   tasks: 
    - name: httpd Launch
      yum:

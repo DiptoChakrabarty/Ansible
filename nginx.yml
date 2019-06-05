@@ -1,4 +1,4 @@
-- hosts: localhost
+- hosts: all
   tasks:
     - package: 
         name: nginx
@@ -7,3 +7,8 @@
         name: nginx
         state: started 
         enabled: yes
+    - firewalld: 
+        state: enabled
+        port: 80/tcp
+        immediate: yes
+        permanent: yes
